@@ -1,0 +1,23 @@
+/* Add this CSS to your component's CSS file or a <style> tag in the same file */
+
+/* Target the scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(200, 200, 200, 0.3); /* Lighter background for track */
+  border-radius: 10px;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.7); /* Darker color for thumb */
+  border-radius: 20%;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 100, 100, 0.9); /* Slightly darker on hover */
+}
